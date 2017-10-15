@@ -876,7 +876,35 @@ ul#nav li.current a {
   margin: -50px 0px 60px 0px;
 }
 
-@media (max-width: 780px) and (min-width:421px) {
+@media (max-width: 373px) {
+  #visual-studio {
+    margin: 0px 0px 0px 0px;
+    padding-left: 30px;
+    height: 50%;
+    width: 50%;
+  }
+  #android-studio {
+    margin: 0px 0px 10px 0px;
+    padding-left: 10px;
+    height: 25%;
+    width: 25%;
+  }
+}
+
+@media (max-width: 430px) and (min-width: 374px) {
+  #visual-studio {
+    margin: 0px 0px 0px 40px;
+    padding-left: 30px;
+    height: 45%;
+    width: 45%;
+  }
+  #android-studio {
+    margin: 0px 0px 20px 0px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 752px) and (min-width:431px) {
   #visual-studio {
     margin: -15px 0px 0px -7px;
     padding-left: 100px;
@@ -885,20 +913,6 @@ ul#nav li.current a {
     margin: -50px 0px 25px -7px;
   }
 }
-
-@media (max-width: 420px) {
-  #visual-studio {
-    margin: 0px 0px 0px 20px;
-    padding-left: 10px;
-    height: 50%;
-    width: 50%;
-  }
-  #android-studio {
-    margin: 0px 0px 20px 0px;
-    padding-left: 10px;
-  }
-}
-
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
