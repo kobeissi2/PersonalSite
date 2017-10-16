@@ -155,5 +155,9 @@ jQuery(document).ready(function($) {
       data: data,
       dataType: "json"
     });
+    $("#image-loader").fadeOut();
+    $("#message-warning").hide();
+    $("#contactForm").fadeOut();
+    $("#message-success").fadeIn();
   });
 });
