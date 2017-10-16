@@ -131,11 +131,27 @@ jQuery(document).ready(function($) {
   /*	contact form
 ------------------------------------------------------*/
 
-  $("form#gform button.submit").click(function() {
-    $("#image-loader").fadeIn();
-    $("#image-loader").fadeOut();
-    $("#message-warning").hide();
-    $("#gform").fadeOut();
-    $("#message-success").fadeIn();
+  var name = document.getElementById("name");
+  var email = document.getElementById("email");
+  var message = document.getElementById("message");
+
+  name.addEventListener("input", function(event) {
+    email.addEventListener("input", function(event) {
+      message.addEventListener("input", function(event) {
+        if (
+          name.checkValidity() &&
+          email.checkValidity() &&
+          message.checkValidity()
+        ) {
+          $("form#gform button.submit").click(function() {
+            $("#image-loader").fadeIn();
+            $("#image-loader").fadeOut();
+            $("#message-warning").hide();
+            $("#gform").fadeOut();
+            $("#message-success").fadeIn();
+          });
+        }
+      });
+    });
   });
 });
