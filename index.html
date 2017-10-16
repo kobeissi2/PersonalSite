@@ -824,8 +824,8 @@
             <div class="eight columns">
 
                 <!-- form -->
-                <form action="https://script.google.com/macros/s/AKfycbw-DCSLh5FjfqJmsCjIHB9wOHJa4fjj5yVxxgFypuiuAXkdN_I/exec" 
-                method="post"id="gform" name="gform" data-email="kobeissidev@gmail.com">
+                <form id="gform" action="https://script.google.com/macros/s/AKfycbyLDY4V-JGKAAtAnBB7vnj6-JrCFCNku4fookr0Tkf1yB9mpPg/exec"
+                    method="POST" name="gform">
                     <fieldset>
 
                         <div>
@@ -844,7 +844,7 @@
 
                         <div>
                             <label for="contactSubject">Subject</label>
-                            <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                            <input type="text" value="" size="35" id="contactSubject" name="subject">
                         </div>
 
                         <div>
@@ -860,7 +860,7 @@
                                 <img alt="" src="images/loader.gif">
                             </span>
                         </div>
-
+                        <input id="honeypot" type="hidden" name="honeypot" value="" />
                     </fieldset>
                 </form>
                 <!-- Form End -->
@@ -935,7 +935,7 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
-
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </body>
 
 </html>
