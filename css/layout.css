@@ -846,8 +846,6 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
-  border-bottom: 1px solid #e8e8e8;
-  border-top: 1px solid #e8e8e8;
 }
 
 #windows,
@@ -855,64 +853,8 @@ ul#nav li.current a {
   color: black;
 }
 
-
 /* ------------------------------------------------------------------ */
 
-
-/* f. IDE Section
-/* ------------------------------------------------------------------ */
-
-#ide {
-  background: #fff;
-  padding-top: 90px;
-  overflow: hidden;
-}
-
-#visual-studio {
-  margin: -35px 0px 35px -25px;
-}
-
-#android-studio {
-  margin: -50px 0px 60px 0px;
-}
-
-@media (max-width: 373px) {
-  #visual-studio {
-    margin: 0px 0px 0px 0px;
-    padding-left: 30px;
-    height: 50%;
-    width: 50%;
-  }
-  #android-studio {
-    margin: 0px 0px 10px 0px;
-    padding-left: 10px;
-    height: 25%;
-    width: 25%;
-  }
-}
-
-@media (max-width: 430px) and (min-width: 374px) {
-  #visual-studio {
-    margin: 0px 0px 0px 40px;
-    padding-left: 30px;
-    height: 45%;
-    width: 45%;
-  }
-  #android-studio {
-    margin: 0px 0px 20px 0px;
-    padding-left: 10px;
-  }
-}
-
-@media (max-width: 752px) and (min-width:431px) {
-  #visual-studio {
-    margin: -15px 0px 0px -7px;
-    padding-left: 100px;
-  }
-  #android-studio {
-    margin: -50px 0px 25px -7px;
-  }
-}
 
 /* ------------------------------------------------------------------
 /* g. Testimonials

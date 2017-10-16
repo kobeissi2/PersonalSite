@@ -73,7 +73,7 @@
       line-height: 46px;      
    }
 
-    /* Call to Action Section
+    /* OS Section
    ------------------------------------------------------------------- */
    #operating-systems .header-col h1:before {
       font-size: 66px;
@@ -241,13 +241,16 @@
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
    #operating-systems { text-align: center; }
-   #operating-systems h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #operating-systems h1 span { display: block; }
+   #operating-systems  h1 {
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #operating-systems  h1 span {
+    border-bottom: 3px solid #11abb0;
+  }
+  
    #operating-systems .header-col h1:before { content: none; }
    #operating-systems p { font-size: 15px; }
 
