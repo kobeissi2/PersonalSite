@@ -175,6 +175,7 @@ header .scrolldown a:hover {
 /* hide toggle button */
 
 #nav-wrap > a.mobile-btn {
+  color:#11abb0;
   display: none;
 }
 
