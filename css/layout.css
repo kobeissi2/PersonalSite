@@ -616,7 +616,12 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 24px;
   overflow: hidden;
-  border-top: 1px solid #e8e8e8;
+}
+
+#borderOS{
+  border: 1px solid #e8e8e8;
+  width: 60%;
+  margin: 0 auto;
 }
 
 #windows,
@@ -976,28 +981,6 @@ ul#nav li.current a {
   position: relative;
   left: 18px;
   top: 17px;
-}
-
-/* Twitter Feed */
-
-#twitter {
-  margin-top: 12px;
-  padding: 0;
-}
-
-#twitter li {
-  margin: 6px 0px 12px 0;
-  line-height: 30px;
-}
-
-#twitter li span {
-  display: block;
-}
-
-#twitter li b a {
-  font: 13px/36px "opensans-regular", Sans-serif;
-  color: #474747 !important;
-  border: none;
 }
 
 /* ------------------------------------------------------------------ */
