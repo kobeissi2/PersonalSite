@@ -159,6 +159,10 @@ jQuery(document).ready(function ($) {
   $("#se").addClass("animated zoomIn");
   $("#grad").addClass("animated zoomIn");
   $("#date").addClass("animated zoomIn");
+  $("#education").addClass("animated infinite pulse");
+  $("#work").addClass("animated infinite pulse");
+  $("#skills").addClass("animated infinite pulse");
+  $("#os").addClass("animated infinite pulse");
 
   $("#button").click(function () {
     $("#button").addClass("animated rubberBand");
