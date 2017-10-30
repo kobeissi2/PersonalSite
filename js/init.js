@@ -4,12 +4,12 @@
 /*
 -----------------------------------------------------------------------------------*/
 
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
   /*----------------------------------------------------*/
   /* FitText Settings
 ------------------------------------------------------ */
 
-  setTimeout(function() {
+  setTimeout(function () {
     $("h1.responsive-headline").fitText(1, {
       minFontSize: "40px",
       maxFontSize: "90px"
@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
   /* Smooth Scrolling
 ------------------------------------------------------ */
 
-  $(".smoothscroll").on("click", function(e) {
+  $(".smoothscroll").on("click", function (e) {
     e.preventDefault();
 
     var target = this.hash,
@@ -29,14 +29,14 @@ jQuery(document).ready(function($) {
     $("html, body")
       .stop()
       .animate(
-        {
-          scrollTop: $target.offset().top
-        },
-        800,
-        "swing",
-        function() {
-          window.location.hash = target;
-        }
+      {
+        scrollTop: $target.offset().top
+      },
+      800,
+      "swing",
+      function () {
+        window.location.hash = target;
+      }
       );
   });
 
@@ -48,7 +48,7 @@ jQuery(document).ready(function($) {
   var navigation_links = $("#nav-wrap a");
 
   sections.waypoint({
-    handler: function(event, direction) {
+    handler: function (event, direction) {
       var active_section;
 
       active_section = $(this);
@@ -70,7 +70,7 @@ jQuery(document).ready(function($) {
 ------------------------------------------------------ */
 
   $("header").css({ height: $(window).height() });
-  $(window).on("resize", function() {
+  $(window).on("resize", function () {
     $("header").css({ height: $(window).height() });
     $("body").css({ width: $(window).width() });
   });
@@ -79,7 +79,7 @@ jQuery(document).ready(function($) {
   /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
 
-  $(window).on("scroll", function() {
+  $(window).on("scroll", function () {
     var h = $("header").height();
     var y = $(window).scrollTop();
     var nav = $("#nav-wrap");
@@ -107,7 +107,7 @@ jQuery(document).ready(function($) {
     mainClass: "mfp-fade"
   });
 
-  $(document).on("click", ".popup-modal-dismiss", function(e) {
+  $(document).on("click", ".popup-modal-dismiss", function (e) {
     e.preventDefault();
     $.magnificPopup.close();
   });
@@ -135,15 +135,15 @@ jQuery(document).ready(function($) {
   var email = document.getElementById("email");
   var message = document.getElementById("message");
 
-  name.addEventListener("input", function(event) {
-    email.addEventListener("input", function(event) {
-      message.addEventListener("input", function(event) {
+  name.addEventListener("input", function (event) {
+    email.addEventListener("input", function (event) {
+      message.addEventListener("input", function (event) {
         if (
           name.checkValidity() &&
           email.checkValidity() &&
           message.checkValidity()
         ) {
-          $("form#gform button.submit").click(function() {
+          $("form#gform button.submit").click(function () {
             $("#image-loader").fadeIn();
             $("#image-loader").fadeOut();
             $("#message-warning").hide();
@@ -154,8 +154,16 @@ jQuery(document).ready(function($) {
       });
     });
   });
-});
 
-$("#button").click(function() {
-  $("#button").addClass("animated rubberBand");
+  $("#moe").addClass("animated bounceInLeft");
+  $("#se").addClass("animated zoomIn");
+  $("#grad").addClass("animated zoomIn");
+  $("#date").addClass("animated zoomIn");
+
+  $("#button").click(function () {
+    $("#button").addClass("animated rubberBand");
+    $('#button').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+      $("#button").removeClass("animated rubberBand");
+    });
+  });
 });
