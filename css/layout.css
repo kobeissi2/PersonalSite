@@ -404,14 +404,14 @@ ul#nav li.current a {
 }
 
 .cpp {
-  width: 70%;
+  width: 65%;
   animation: cpp 2s ease;
   -moz-animation: cpp 2s ease;
   -webkit-animation: cpp 2s ease;
 }
 
 .cs {
-  width: 65%;
+  width: 55%;
   animation: cs 2s ease;
   -moz-animation: cs 2s ease;
   -webkit-animation: cs 2s ease;
@@ -450,7 +450,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 65%;
   }
 }
 
@@ -459,7 +459,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 65%;
+    width: 55%;
   }
 }
 
