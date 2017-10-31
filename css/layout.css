@@ -613,15 +613,9 @@ ul#nav li.current a {
 
 #operating-systems {
   background: #fff;
-  padding-top: 90px;
-  padding-bottom: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   overflow: hidden;
-}
-
-#borderOS{
-  border: 1px solid #e8e8e8;
-  width: 80%;
-  margin: 0 auto;
 }
 
 #windows,
