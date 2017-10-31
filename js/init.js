@@ -155,7 +155,11 @@ jQuery(document).ready(function ($) {
     });
   });
 
-  $("#moe").addClass("animated bounceInLeft");
+  $("#moe").addClass("animated lightSpeedIn");
+  $("#moe").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+    $("#moe").removeClass("animated lightSpeedIn");
+    $("#moe").addClass("animated infinite bounce");
+  });
   $("#se").addClass("animated zoomIn");
   $("#grad").addClass("animated zoomIn");
   $("#date").addClass("animated zoomIn");
@@ -163,6 +167,9 @@ jQuery(document).ready(function ($) {
   $("#work").addClass("animated infinite pulse");
   $("#skills").addClass("animated infinite pulse");
   $("#os").addClass("animated infinite pulse");
+
+  $("#windows").addClass("animated infinite pulse");
+  $("#android").addClass("animated infinite pulse");
 
   $("#button").click(function () {
     $("#button").addClass("animated rubberBand");
