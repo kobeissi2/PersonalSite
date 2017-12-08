@@ -403,14 +403,14 @@ ul#nav li.current a {
 }
 
 .cpp {
-  width: 65%;
+  width: 60%;
   animation: cpp 2s ease;
   -moz-animation: cpp 2s ease;
   -webkit-animation: cpp 2s ease;
 }
 
 .cs {
-  width: 55%;
+  width: 50%;
   animation: cs 2s ease;
   -moz-animation: cs 2s ease;
   -webkit-animation: cs 2s ease;
@@ -449,7 +449,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 65%;
+    width: 60%;
   }
 }
 
@@ -458,7 +458,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 55%;
+    width: 50%;
   }
 }
 
@@ -503,7 +503,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -512,7 +512,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 65%;
+    width: 50%;
   }
 }
 
@@ -557,7 +557,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -566,7 +566,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 65%;
+    width: 50%;
   }
 }
 
