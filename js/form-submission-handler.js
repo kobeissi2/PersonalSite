@@ -53,7 +53,7 @@ function getFormData() {
       }
     }
   });
-
+  
   // add form-specific values into the data
   data.formDataNameOrder = JSON.stringify(fields);
   data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
@@ -64,7 +64,7 @@ function getFormData() {
 }
 
 function handleFormSubmit(event) {
-  // handles form submit withtout any jquery
+  // handles form submit without any jquery
   event.preventDefault(); // we are submitting via xhr below
   var data = getFormData(); // get the values submitted in the form
 
