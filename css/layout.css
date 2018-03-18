@@ -174,7 +174,7 @@ header .scrolldown a:hover {
 /* hide toggle button */
 
 #nav-wrap > a.mobile-btn {
-  background-color:#11abb0;
+  background-color: #11abb0;
   display: none;
 }
 
@@ -410,35 +410,35 @@ ul#nav li.current a {
 }
 
 .cs {
-  width: 50%;
+  width: 55%;
   animation: cs 2s ease;
   -moz-animation: cs 2s ease;
   -webkit-animation: cs 2s ease;
 }
 
 .android {
-  width: 30%;
+  width: 50%;
   animation: android 2s ease;
   -moz-animation: android 2s ease;
   -webkit-animation: android 2s ease;
 }
 
 .css {
-  width: 20%;
+  width: 30%;
   animation: css 2s ease;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
 
 .html5 {
-  width: 20%;
+  width: 60%;
   animation: html5 2s ease;
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
 
 .javascript {
-  width: 25%;
+  width: 50%;
   animation: javascript 2s ease;
   -moz-animation: javascript 2s ease;
   -webkit-animation: javascript 2s ease;
@@ -458,7 +458,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 55%;
   }
 }
 
@@ -467,7 +467,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -476,7 +476,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -485,7 +485,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 20%;
+    width: 60%;
   }
 }
 
@@ -494,7 +494,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 25%;
+    width: 50%;
   }
 }
 
@@ -512,7 +512,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 55%;
   }
 }
 
@@ -521,7 +521,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -530,7 +530,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -539,7 +539,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 20%;
+    width: 60%;
   }
 }
 
@@ -548,7 +548,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 25%;
+    width: 50%;
   }
 }
 
@@ -566,7 +566,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 55%;
   }
 }
 
@@ -575,7 +575,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -584,7 +584,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -593,7 +593,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 20%;
+    width: 60%;
   }
 }
 
@@ -602,7 +602,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 25%;
+    width: 50%;
   }
 }
 
