@@ -170,6 +170,8 @@ jQuery(document).ready(function ($) {
 
   $("#windows").addClass("animated infinite pulse");
   $("#android").addClass("animated infinite pulse");
+  $("#apple").addClass("animated infinite pulse");
+  $("#linux").addClass("animated infinite pulse");
 
   $("#button").click(function () {
     $("#button").addClass("animated rubberBand");

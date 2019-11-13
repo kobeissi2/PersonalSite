@@ -403,42 +403,42 @@ ul#nav li.current a {
 }
 
 .cpp {
-  width: 35%;
+  width: 30%;
   animation: cpp 2s ease;
   -moz-animation: cpp 2s ease;
   -webkit-animation: cpp 2s ease;
 }
 
 .cs {
-  width: 55%;
+  width: 40%;
   animation: cs 2s ease;
   -moz-animation: cs 2s ease;
   -webkit-animation: cs 2s ease;
 }
 
 .android {
-  width: 50%;
+  width: 70%;
   animation: android 2s ease;
   -moz-animation: android 2s ease;
   -webkit-animation: android 2s ease;
 }
 
 .css {
-  width: 50%;
+  width: 25%;
   animation: css 2s ease;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
 
 .html5 {
-  width: 70%;
+  width: 50%;
   animation: html5 2s ease;
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
 
 .javascript {
-  width: 70%;
+  width: 55%;
   animation: javascript 2s ease;
   -moz-animation: javascript 2s ease;
   -webkit-animation: javascript 2s ease;
@@ -449,7 +449,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -458,7 +458,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 55%;
+    width: 40%;
   }
 }
 
@@ -467,7 +467,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -476,7 +476,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 25%;
   }
 }
 
@@ -485,7 +485,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -494,7 +494,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 55%;
   }
 }
 
@@ -503,7 +503,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -512,7 +512,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 55%;
+    width: 40%;
   }
 }
 
@@ -521,7 +521,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -530,7 +530,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 25%;
   }
 }
 
@@ -539,7 +539,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -548,7 +548,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 55%;
   }
 }
 
@@ -557,7 +557,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -566,7 +566,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 55%;
+    width: 40%;
   }
 }
 
@@ -575,7 +575,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -584,7 +584,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 25%;
   }
 }
 
@@ -593,7 +593,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -602,7 +602,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 55%;
   }
 }
 
@@ -619,7 +619,9 @@ ul#nav li.current a {
 }
 
 #windows,
-#android {
+#android,
+#apple,
+#linux {
   color: black;
 }
 
